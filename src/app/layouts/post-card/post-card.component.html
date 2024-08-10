@@ -1,0 +1,15 @@
+<div class="card" *ngIf="post" [routerLink]="['/post',post._id]">
+    <img  [src]="'http://localhost:3001/uploads/'+post.postImgName" alt='post-img' class="card-img-top">
+     
+    <div class="card-body">
+        <small class="bg-light text-danger text-center">{{post.category.category}}</small>
+        <small class="bg-light text-success  text-center ml-3">Featured</small>
+        <small class="bg-light text-danger text-center ml-3">Views - 100,203</small>
+        
+        <h5 class="mt-1">{{post.title}} </h5>
+        <p>{{post.excerpt}}</p>
+        <small class="bg-light text-warning text-center ml-3">Views - 100,203</small>    
+    </div>
+ 
+
+</div>
