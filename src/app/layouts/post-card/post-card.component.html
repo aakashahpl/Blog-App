@@ -1,5 +1,5 @@
 <div class="card" *ngIf="post" [routerLink]="['/post',post._id]">
-    <img  [src]="'http://localhost:3001/uploads/'+post.postImgName" alt='post-img' class="card-img-top">
+    <img  [src]="'https://ang-blog-website.vercel.app/uploads/'+post.postImgName" alt='post-img' class="card-img-top">
      
     <div class="card-body">
         <small class="bg-light text-danger text-center">{{post.category.category}}</small>
