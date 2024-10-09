@@ -17,6 +17,7 @@ import { CommentListComponent } from './comments/comment-list/comment-list.compo
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,7 @@ import { PostCardComponent } from './layouts/post-card/post-card.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
