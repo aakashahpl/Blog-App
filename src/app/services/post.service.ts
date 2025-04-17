@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PostService {
-  private postBackendUrl = 'https://ang-blog-website.vercel.app/post';
+  private postBackendUrl = 'http://localhost:3001/post';
  
 
 
